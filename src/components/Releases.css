@@ -1,15 +1,31 @@
 .releasesList {
     display: flex;
     flex-direction: column;
+}
 
+.releasesPage{
+    width: 90%;
+}
+@media (min-width: 1050px){
+    .releasesPage {
+        width: 1000px;
+    }
 }
 
 .row {
     display: flex;
-    flex-direction: row;
-    width: 800px;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    justify-content: none;
     padding: 10px;
+    align-items: center;
+}
+@media (min-width: 1050px){
+    .row {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 800px;
+    }
 }
 
 .frame {
@@ -18,7 +34,15 @@
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 30px 30px;
+    width: fit-content;
+    margin: 15px;
 }
+@media (min-width: 1050px){
+    .frame {
+        margin: 0;
+    }
+}
+
 
 .icons {
     width: 70%;
@@ -61,3 +85,4 @@
     padding: 5px 15px;
     border-radius: 30px;
 }
+

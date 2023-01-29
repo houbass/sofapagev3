@@ -73,7 +73,7 @@ function App() {
   const releasesFun = () => {
     console.log("releaseFun funguje");
     //page visibility
-    setReleases(0);
+    setReleases(1);
     setHomepage(-1);
     setSubmit(-1);
     setContact(-1);
@@ -164,7 +164,7 @@ function App() {
     setSubmitPageOpacity(0);
     setThanksDemoOpacity(0);
     //playlist position
-    setPlaylistMargin("1000px");
+    setPlaylistMargin("1250px");
   }
 
   //funkce pro demoPage
@@ -178,7 +178,7 @@ function App() {
     setSubmitPageOpacity(0);
     setThanksDemoOpacity(0);
     //playlist position
-    setPlaylistMargin("1000px");
+    setPlaylistMargin("1200px");
   }
 
   //funkce pro thanks demo show

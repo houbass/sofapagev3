@@ -10,10 +10,9 @@ import Deezer from "./pic/icons/deezer.png"
 const Releases = (props) => {
 
     return (
-        <div style={{
+        <div className="releasesPage" style={{
             background: "white",
             position: "absolute",
-            width: "1000px",
             translate: "0px 180px",
             zIndex: props.visibility,
             opacity: props.opacity,
