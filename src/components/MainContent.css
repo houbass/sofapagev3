@@ -5,7 +5,7 @@
 }
 
 .header {
-    font-size: 45px;
+    font-size: 30px;
     cursor: default;
 }
 @media (min-width: 1050px) {
@@ -20,7 +20,7 @@ p {
 
 .main_pic {
     padding-top: 30px;
-    width: 400px;
+    width: 300px;
 }
 @media (min-width: 1050px) {
   .main_pic {
@@ -34,7 +34,7 @@ p {
   flex-direction: column;
 }
 .description2 > p {
-  font-size: 12px;
+  font-size: 8px;
 }
 @media (min-width: 1050px) {
   .description2 > p {
@@ -46,30 +46,43 @@ p {
     position: absolute;
     margin-top: 50px;
     margin-left: -40px;
-    width: 30px;
+    width: 15px;
 }
 
 .note2 {
     position: absolute;
     margin-top: 130px;
     margin-left: 70px;
-    width: 25px;
+    width: 12px;
 }
 
 .note3 {
     position: absolute;
     margin-top: 65px;
     margin-left: 40px;
-    width: 17px;
+    width: 8px;
 }
 
 .note4 {
     position: absolute;
     margin-top: 120px;
     margin-left: -10px;
-    width: 30px;
+    width: 15px;
 }
-
+@media (min-width: 1050px) {
+  .note1 {
+    width: 30px;
+  }
+  .note2 {
+    width: 25px;
+  }
+  .note3 {
+    width: 17px;
+  }
+  .note4 {
+    width: 30px;
+  }
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
