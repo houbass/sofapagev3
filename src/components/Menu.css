@@ -61,7 +61,6 @@ button {
     width: fit-content;
     visibility: hidden;
     transition: 0;
-
 }
 @media (min-width: 1050px) {
     .btn {
@@ -70,6 +69,17 @@ button {
 
     }
 }
+
+.btnFont {
+    font-size: 5px;
+}
+@media (min-width: 1050px) {
+    .btnFont {
+        font-size: 20px;
+    }
+}
+
+
 
 button:hover {
     text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.411);

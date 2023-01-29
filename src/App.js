@@ -156,7 +156,7 @@ function App() {
   //funkce pro playlistPage
   const playlistPage = () => {
     //page visibility  
-    setPlaylistSubmit(0);
+    setPlaylistSubmit(1);
     setSubmit(-1);
     setThanksDemo(-1);  
     //page opacity
@@ -170,7 +170,7 @@ function App() {
   //funkce pro demoPage
   const demoPage = () => {
     //page visibility  
-    setSubmitDemo(0);
+    setSubmitDemo(1);
     setSubmit(-1);
     setThanksDemo(-1);  
     //page opacity
@@ -193,7 +193,7 @@ function App() {
     setSubmitDemoOpacity(0);
     setPlaylistSubmitOpacity(0);
     //playlist position
-    setPlaylistMargin("450px");
+    setPlaylistMargin("700px");
   }
 
   return (

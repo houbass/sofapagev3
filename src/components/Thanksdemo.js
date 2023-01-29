@@ -15,7 +15,9 @@ const Thanksdemo = (props) => {
             transition: props.transition,
             display: "flex",
             flexDirection: "column",
-            padding: "60px 100px",
+            padding: "60px 60px",
+            maxWidth: "800px",
+            width: "90%",
             borderRadius: "30px",
             boxShadow: "0px 5px 40px rgba(0, 0, 0, 0.637)"
         }}>

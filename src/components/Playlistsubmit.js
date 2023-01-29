@@ -1,4 +1,3 @@
-import './Playlistsubmit.css';
 
 //library
 import { useForm } from "react-hook-form";
@@ -151,6 +150,7 @@ const Playlistsubmit = (props) => {
         justifyContent: "center",
         alignItems: "left",
         maxWidth: "1000px",
+        width: "90%",
         padding: "30px 30px",
         borderRadius: "30px",
         boxShadow: "0px 5px 40px rgba(0, 0, 0, 0.637)",
@@ -181,12 +181,12 @@ const Playlistsubmit = (props) => {
         <br></br>
       <form ref={form} onSubmit={sendEmail} className="form1 mt" >
         <div className="inputRow">
-          <input {...register("artistName")} placeholder="Artist name" />
+          <input {...register("artistName")} placeholder="Artist name" className="length"/>
           <p className="error">{artistNameError}</p>
         </div>
 
         <div className="inputRow">
-          <input {...register("email")} placeholder="Email" />
+          <input {...register("email")} placeholder="Email" className="length"/>
           <p className="error">{emailError}</p>
         </div>
 

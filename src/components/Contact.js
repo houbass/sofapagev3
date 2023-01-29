@@ -9,7 +9,7 @@ const Contact = (props) => {
             translate: "0px 180px",
             zIndex: props.visibility,
             opacity: props.opacity,
-            transition: props.transition,             
+            transition: props.transition           
         }}>
             <h1>CONTACT PAGE</h1>
             <p>here gonna be a contact page</p>

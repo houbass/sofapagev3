@@ -38,10 +38,7 @@
     font-weight: normal;
   }
   
-  .form1 {
-    width: 400px;
 
-  }
   
   .inputRow {
     display: flex;
@@ -104,5 +101,20 @@
     padding-left: 40px;
   }
 
+.form1 {
+  width: 100%;
+}
+@media (min-width: 650px) {
+  .form1 {
+    width: 500px;
+  }
+}
 
-
+.length {
+  width: 110px;
+}
+@media (min-width: 650px) {
+  .length {
+    width: auto;
+  }
+}

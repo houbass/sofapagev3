@@ -36,10 +36,10 @@ const Menu = (props) => {
             <div className="right">
                 <div className="btn">
                     <button 
+                    className="btnFont"
                     onClick={props.releasesClick}
                     style={{
                         scale: props.relfontsize,
-                        
                     }}>
                         releases
                     </button>
@@ -47,10 +47,10 @@ const Menu = (props) => {
 
                 <div className="btn">
                     <button 
+                    className="btnFont"                    
                     onClick={props.submitClick} 
                     style={{
-                        scale: props.subfontsize,
-                        
+                        scale: props.subfontsize,                        
                     }}>
                         submit music
                     </button>
@@ -58,10 +58,10 @@ const Menu = (props) => {
 
                 <div className="btn">
                     <button 
+                    className="btnFont"                    
                     onClick={props.contactClick}
                     style={{
                         scale: props.contfontsize,
-                        
                     }}>
                         contact</button>
                 </div>
