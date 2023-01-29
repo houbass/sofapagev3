@@ -28,16 +28,16 @@ p {
   }
 }
 
-.description {
+.description2 {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-.description > p {
+.description2 > p {
   font-size: 12px;
 }
 @media (min-width: 1050px) {
-  .description > p {
+  .description2 > p {
     font-size: 15px;
   }
 }

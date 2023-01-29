@@ -38,7 +38,7 @@ function App() {
   const [playlistSubmitOpacity, setPlaylistSubmitOpacity] = useState(0);
   const [thanksDemoOpacity, setThanksDemoOpacity] = useState(0);
   //states pro pohyb playlistu
-  const [playlistMargin, setPlaylistMargin] = useState("600px");
+  const [playlistMargin, setPlaylistMargin] = useState("700px");
 
 
 
@@ -93,7 +93,7 @@ function App() {
     setSubfontsize("100%");
     setContfontsize("100%");
     //playlist position
-    setPlaylistMargin("1100px");
+    setPlaylistMargin("1200px");
   
   };
 
@@ -121,7 +121,7 @@ function App() {
     setSubfontsize(menuSizeValue);
     setContfontsize("100%");
     //playlist position
-    setPlaylistMargin("450px");    
+    setPlaylistMargin("580px");    
   };
 
   //funkce pro CONTACT

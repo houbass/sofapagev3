@@ -19,7 +19,7 @@ const MainContent = (props) => {
             opacity: props.opacity,
             transition: props.transition
         }}>
-            <div className="description">
+            <div className="description2">
                 <h1 className="header">Welcome to Sofa Lofi</h1>
                 <p>The place where you can chill and pleasure your sofa with your presence</p>
             </div>
