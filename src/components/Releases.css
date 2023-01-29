@@ -1,0 +1,63 @@
+.releasesList {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.frame {
+    background: rgb(241, 239, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+}
+
+.icons {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.iconImg {
+    width: 40px;
+}
+
+.iconImg:hover {
+    width: 45px;
+}
+
+.frame > p {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.hearMore {
+    margin-top: 20px;
+}
+
+.hearMore > p {
+    font-size: 12px;
+    padding-top: -5px;
+}
+
+.hearMore > a > button {
+    background: rgb(241, 239, 235);
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}

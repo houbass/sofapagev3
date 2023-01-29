@@ -1,0 +1,42 @@
+.playlist {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1050px) {
+  .playlist {
+    width: 1000px;
+  }
+}
+
+
+
+.playlistFrame {
+  border-radius: 30px; 
+  border: none; 
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.637);
+}
+
+
+.playlistTitle {
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .playlistTitle {
+      animation: playlistTitle-anim infinite 2s ease-out;
+      animation-direction: alternate-reverse;
+    }
+}
+
+@keyframes playlistTitle-anim {
+    from {
+      scale: 100%;
+    }
+    to {
+      scale: 115%;
+    }
+}

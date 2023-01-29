@@ -1,0 +1,150 @@
+.content {
+    padding-top: 200px;
+    position: absolute;
+    z-index: 0;
+}
+
+.header {
+    font-size: 45px;
+    cursor: default;
+}
+@media (min-width: 1050px) {
+  .header {
+    font-size: 60px;
+  }
+}
+
+p {
+  cursor: default;
+}
+
+.main_pic {
+    padding-top: 30px;
+    width: 400px;
+}
+@media (min-width: 1050px) {
+  .main_pic {
+    width: 500px;
+  }
+}
+
+.description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.description > p {
+  font-size: 12px;
+}
+@media (min-width: 1050px) {
+  .description > p {
+    font-size: 15px;
+  }
+}
+
+.note1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -40px;
+    width: 30px;
+}
+
+.note2 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 70px;
+    width: 25px;
+}
+
+.note3 {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 40px;
+    width: 17px;
+}
+
+.note4 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -10px;
+    width: 30px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .note1 {
+      animation: note1Anim infinite 2s ease-out;
+      animation-direction: alternate-reverse;
+    }
+}
+@keyframes note1Anim {
+    from {
+      opacity: 0;
+      scale: 100%;
+      rotate: -10deg;
+    }
+    to {
+      opacity: 1;
+      scale: 110%;
+      rotate: 10deg;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .note2 {
+      animation: note2Anim infinite 2s ease-out;
+      animation-direction: alternate-reverse;
+    }
+}
+@keyframes note2Anim {
+    from {
+      opacity: 1;
+      scale: 110%;
+      rotate: 0deg;
+    }
+    to {
+      opacity: 0;
+      scale: 90%;
+      rotate: -10deg;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .note3 {
+      animation: note3Anim infinite 4s ease-in;
+      animation-direction: alternate-reverse;
+    }
+}
+@keyframes note3Anim {
+    from {
+        opacity: 0;
+        scale: 90%;
+        rotate: 0deg;
+    }
+    to {
+        opacity: 1;
+        scale: 120%;
+        rotate: -20deg;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .note4 {
+      animation: note3Anim infinite 3s ease-in;
+      animation-direction: alternate-reverse;
+    }
+}
+@keyframes note3Anim {
+    from {
+      opacity: 1;
+      scale: 140%;
+      rotate: -20deg;
+    }
+    to {
+      opacity: 0;
+      scale: 100%;
+      rotate: 0deg;
+    }
+}
+
